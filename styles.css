@@ -1,0 +1,116 @@
+body {
+    padding-top: 7%;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    width: fit-content;
+    margin: auto;
+    max-width: 80%;
+    text-align: center;
+    z-index: 11;
+}
+
+.fixed-header {
+    position: fixed;
+    display: block;
+    z-index: 10;
+    top: 0;
+    width: 80%;
+}
+
+hr {
+    position: static;
+    border-top: 4px solid #F9D200;
+    margin: none;
+}
+
+p {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-size-adjust: 110%;
+}
+
+h3 {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-size-adjust: 110%;
+}
+
+img {
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.container {
+    width: inherit;
+    display: flex;
+    align-items: stretch;
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.container::after{
+    display: block;
+}
+
+.column-left {
+    width: 33.33%;
+}
+
+.column-right {
+    width: 66.67%;
+    border: solid black;
+    border-width: 2px;
+    align-items: center;
+}
+
+.column-right div{
+    align-items: center;
+}
+
+.column-right button {
+    background-color: #F9D200;
+    border: solid #F9D200;
+    
+}
+
+.cap-buttons button {
+    background-color: #88C074;
+    border: solid #88C074;
+}
+
+button {
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: auto;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.facebook-button button{
+    background-color: white;
+    border: none;
+    padding: none;
+}
+
+.facebook-button button:hover{
+    background-color: lightgray;
+}
+
+.location button{
+    border: none;
+    background-color: white;
+}
+
+.location button:hover{
+    background-color: lightgray;
+}
