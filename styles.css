@@ -49,7 +49,7 @@ img {
     vertical-align: top;
 }
 
-.main-box::after{
+.main-box::after {
     display: block;
 }
 
@@ -64,14 +64,14 @@ img {
     align-items: center;
 }
 
-.column-right div{
+.column-right div {
     align-items: center;
 }
 
 .column-right button {
     background-color: #F9D200;
     border: solid #F9D200;
-    
+
 }
 
 .cap-buttons button {
@@ -94,25 +94,25 @@ button:hover {
     background-color: white;
 }
 
-.facebook-button button{
+.facebook-button button {
     background-color: white;
     border: none;
     padding: none;
 }
 
-.facebook-button button:hover{
+.facebook-button button:hover {
     background-color: lightgray;
 }
 
-.location button{
+.location button {
     border: none;
     background-color: white;
 }
 
-.location button:hover{
+.location button:hover {
     background-color: lightgray;
 }
 
-.big-text{
+.big-text {
     font-size: 20px;
 }
